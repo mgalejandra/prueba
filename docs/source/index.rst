@@ -6,7 +6,7 @@ that creates recipes mixing random ingredients.
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
 
-Consulte la seccion de:doc:`uso` para obtener más información, incluyendo
+Consulte la seccion de :doc:`uso` para obtener más información, incluyendo
 como :ref:`installation` del proyecto
 
 .. note::
@@ -18,7 +18,7 @@ Contenido
 
 .. toctree::
 
-   usage
+   uso
    api
 
 
