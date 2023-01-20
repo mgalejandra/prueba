@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Chinchin'
-copyright = '2023, https://www.pagochinchin.com/'
+copyright = '2023, Chinchin'
 author = 'Chinchin'
 
 release = '0.1'
