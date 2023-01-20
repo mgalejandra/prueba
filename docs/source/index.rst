@@ -6,17 +6,17 @@ that creates recipes mixing random ingredients.
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Consulte la seccion de  :doc:`uso` para obtener más información, incluyendo
+como :ref:`instalacion` del proyecto
 
 .. note::
 
-   This project is under active development.
+  Este proyecto es un producto desarrollado por  `Chinchin <https://www.pagochinchin.com/>`_
 
-Contents
+Contenido
 --------
 
 .. toctree::
 
-   usage
+   uso
    api
