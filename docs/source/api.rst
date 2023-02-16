@@ -85,3 +85,40 @@ Los tipos de servicios básicos permitidos son:
   "idTypeService": 57,
   "amount": 10
    }
+
+
+
+Consulta  de saldo de los servicios
+-------------------------------------
+
+..  tip::
+     Solicitud encarga de procesar las consultas de saldos de los servicios básicos aplicables.
+
+
+``GET  /cps/v2/operation/get/balance``
+
+
+
+..  note::
+      El parámetro **idTypeService** de la solicitud debe tener los mismos codigos que en la petición de recarga de servicios.
+
+
+      No todos los servicios aplican para consultar saldo, para saber cuales aplican utilizar el endpoint listar servicios básicos
+      
+      con el queryParam "canGetBalance" con valor "true" y este listará los servicios aplicables para consultar saldo.
+
+
+
+
++------------------------+----------------------+
+|               Query Params                    | 
++========================+======================+
+|                        | 02123457654          |
+|    numberService       |                      | 
+|                        | número del tipo de   |
+|                        |  servicio            | 
++-------------------------+---------------------+
+|                        | 63                   |
+|     idTypeService      |identificador del tipo| 
+|                        |de servicio           |
++------------------------+----------------------+
