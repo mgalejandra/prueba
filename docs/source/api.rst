@@ -13,15 +13,17 @@ Contenido
 
 ``Solicitud encargada de procesar las recargas de saldo por tipo de servicio básico.``
 
-
-:red: POST  cps/v2/operation/use/pay
-
+>>> import POST  cps/v2/operation/use/pay
 
 
 
 
 
- Los tipos de servicios básicos permitidos son:
+
+
+
+
+Los tipos de servicios básicos permitidos son:
 
 +------------------------+-----------------+
 |  Servicios             |  Id del servicio| 
