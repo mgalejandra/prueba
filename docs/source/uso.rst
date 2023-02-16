@@ -8,15 +8,22 @@ Instalación
 
 Para el uso de core debe instalar previamente : 
 
-.. code-block:: console
+
  
 Node y NPM Versión LTS 
-
+.. code-block:: console
 Empezando
 ----------------
+>>> import lumache
+>>> lumache.get_random_ingredients()
+['shells', 'gorgonzola', 'parsley']
+
+
+
+
 
 cd existing_repo
-git remote add origin ``http://gitlab.xxxxxx.int/xxxxx/c-xxxxx.git ``
+git remote add origin ``"http://gitlab.xxxxxx.int/xxxxx/c-xxxxx.git"``
 git branch -M Developer
 git push -uf origin Developer
 
