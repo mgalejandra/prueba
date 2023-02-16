@@ -8,10 +8,10 @@ Instalación
 
 Para el uso de core debe instalar previamente : 
 
-
+.. code-block:: console
  
 Node y NPM Versión LTS 
-.. code-block:: console
+
 Empezando
 ----------------
 >>> import lumache
