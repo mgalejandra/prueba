@@ -5,6 +5,7 @@
 project = 'Chinchin'
 copyright = '2023, Chinchin'
 author = 'Chinchin'
+project_copyright = 'Chinchin'.
 
 release = '0.1'
 version = '0.1.0'
@@ -25,9 +26,6 @@ intersphinx_mapping = {
 }
 intersphinx_disabled_domains = ['std']
 
-.red {
-    color:red;
-}
 
 templates_path = ['_templates']
 
