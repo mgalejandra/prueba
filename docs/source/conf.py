@@ -5,7 +5,7 @@
 project = 'Chinchin'
 copyright = '2023, Chinchin'
 author = 'Chinchin'
-project_copyright = 'Chinchin'.
+project_copyright = 'Chinchin'
 
 release = '0.1'
 version = '0.1.0'
