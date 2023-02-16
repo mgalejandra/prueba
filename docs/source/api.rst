@@ -1,15 +1,24 @@
 API
 ===
 
-.. autosummary::
-   :toctree: generated
-
    **Pago de servicios**
 
 
+En esta documentación se encontrarán los siguientes APIs.
 
-Recarga de saldo 
-----------------
+1. :ref:`Pago de servicios por tipo de servicio` 
+2. :ref:`Consultar saldo por servicio`
+3. :ref:`Listado de servicios básicos`
+
+
+.. autosummary::
+   :toctree: generated
+
+
+
+.. _Pago de servicios por tipo de servicio:
+Pago de servicios por tipo de servicio
+----------------------------------------
 
 ..  tip::
      Solicitud encargada de procesar las recargas de saldo por tipo de servicio básico.
@@ -87,9 +96,9 @@ Los tipos de servicios básicos permitidos son:
    }
 
 
-
-Consulta  de saldo de los servicios
--------------------------------------
+.. _Consultar saldo por servicio:
+Consultar saldo por servicio
+-------------------------------
 
 ..  tip::
      Solicitud encarga de procesar las consultas de saldos de los servicios básicos aplicables.
@@ -124,8 +133,8 @@ Consulta  de saldo de los servicios
 +---------------+----------------------+
 
 
-
-Listado  de los servicios
+.. _Listado de servicios básicos:
+Listado de servicios básicos
 --------------------------
 
 

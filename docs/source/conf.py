@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'CORE PAYMENT SERVICES ( CPS )'
+project = 'CORE PAYMENT SERVICES'
 copyright = '2023, Chinchin'
 author = 'Chinchin'
 project_copyright = 'CORE PAYMENT SERVICES ( CPS )'
