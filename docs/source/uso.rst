@@ -9,20 +9,16 @@ Instalación
 Para el uso de core debe instalar previamente : 
 
 
- 
-node y npm versión lts 
-
-
 .. code-block:: console
 
-   (.venv) $ node y npm versión lts 
+ node y npm versión lts 
 
 
 
 Empezando
 ----------------
->>> import lumache
->>> lumache.get_random_ingredients()
+>>> import lumache cd existing_repo
+>>> lumache.get_random_ingredients() git remote add origin ``"http://gitlab.xxxxxx.int/xxxxx/c-xxxxx.git"``
 ['shells', 'gorgonzola', 'parsley']
 
 
