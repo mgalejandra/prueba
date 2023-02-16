@@ -11,15 +11,15 @@ API
 Recarga de saldo 
 ----------------
 
-``Solicitud encargada de procesar las recargas de saldo por tipo de servicio básico.``
-
-..  import::
- POST  cps/v2/operation/use/pay
+..  tip::
+Solicitud encargada de procesar las recargas de saldo por tipo de servicio básico.
 
 
 
 
 
+
+``POST  cps/v2/operation/use/pay``
 
 
 
@@ -77,6 +77,8 @@ Los tipos de servicios básicos permitidos son:
 
 
 .. code-block:: console
+
+   Ejemplo de la petición JSON : 
 
   {
   "numberService": "04243675525",
