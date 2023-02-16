@@ -15,7 +15,10 @@ Contenido
 
 
 .. code-block:: console
-  POST  cps/v2/operation/use/pay
+
+ POST  cps/v2/operation/use/pay
+
+
 
 
 
