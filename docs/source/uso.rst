@@ -8,17 +8,16 @@ Instalación
 
 Para el uso de core debe instalar previamente : 
 
-.. code-block:: console
+
  
-Node y NPM Versión LTS 
+node y npm versión lts 
 
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ node y npm versión lts 
 
-Creating recipes
-----------------
+
 
 Empezando
 ----------------
