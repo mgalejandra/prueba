@@ -13,7 +13,7 @@ Contenido
 
 ``Solicitud encargada de procesar las recargas de saldo por tipo de servicio básico.``
 
->>> import POST  cps/v2/operation/use/pay
+>>> POST  cps/v2/operation/use/pay
 
 
 
