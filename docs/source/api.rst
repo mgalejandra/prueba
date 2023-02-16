@@ -8,12 +8,12 @@ API
 
 
 
-Contenido
---------
+Recarga de saldo 
+----------------
 
 ``Solicitud encargada de procesar las recargas de saldo por tipo de servicio básico.``
 
-..  tip::
+..  attention::
  POST  cps/v2/operation/use/pay
 
 
@@ -70,8 +70,10 @@ Los tipos de servicios básicos permitidos son:
 | TV_SATELITAL:          |        208      |
 +------------------------+-----------------+         
 
+
+
 ..  note::
-Se debe agregar el código correspondiente al servicio basico que se desea recargar en el parámetro **idTypeService** de la petición.
+      Se debe agregar el código correspondiente al servicio basico que se desea recargar en el parámetro **idTypeService** de la petición.
 
 
 .. code-block:: console
