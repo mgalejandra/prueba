@@ -25,9 +25,9 @@ Contenido
 
  Los tipos de servicios básicos permitidos son:
 
-========================  =================  
-  Servicios                Id del servicio 
-========================  =================
++------------------------+-----------------+
+|  Servicios             |  Id del servicio| 
++========================+=================+
 | DIGITEL_PREPAGO:       |       59        | 
 +------------------------+-----------------+
 | DIGITEL_FIJO:          |        63       |
