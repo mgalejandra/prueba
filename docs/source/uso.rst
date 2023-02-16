@@ -25,11 +25,11 @@ Empezando
 
 .. autofunction:: lumache.get_random_ingredients
 
-* npm ``Install``.
+* npm ``Install``
 
-* npm run ``"dev"``.  **ejecucion entorno developer
+* npm run ``"dev"``  **ejecucion entorno developer**
 
-* npm run ``"start"`` **ejecucion entorno Produccion`
+* npm run ``"start"`` **ejecucion entorno Producción**
 
 
 .. autoexception:: lumache.InvalidKindError
