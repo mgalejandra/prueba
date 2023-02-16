@@ -25,9 +25,11 @@ Empezando
 
 .. autofunction:: lumache.get_random_ingredients
 
-npm ``Install``.
-npm run ``"dev"``.  :py:func:`ejecucion entorno developer`
-npm run ``"start"``.  :py:func:`ejecucion entorno Produccion`
+* npm ``Install``.
+
+* npm run ``"dev"``.  **ejecucion entorno developer
+
+* npm run ``"start"`` **ejecucion entorno Produccion`
 
 
 .. autoexception:: lumache.InvalidKindError
