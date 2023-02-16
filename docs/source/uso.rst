@@ -12,6 +12,14 @@ Para el uso de core debe instalar previamente :
  
 Node y NPM Versión LTS 
 
+
+.. code-block:: console
+
+   (.venv) $ pip install lumache
+
+Creating recipes
+----------------
+
 Empezando
 ----------------
 >>> import lumache
