@@ -25,15 +25,12 @@ Empezando
 
 .. autofunction:: lumache.get_random_ingredients
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+npm ``Install``.
+npm run ``"dev"``.  :py:func:`ejecucion entorno developer`
+npm run ``"start"``.  :py:func:`ejecucion entorno Produccion`
+
 
 .. autoexception:: lumache.InvalidKindError
 
-For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
