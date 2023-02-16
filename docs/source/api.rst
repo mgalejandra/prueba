@@ -122,3 +122,39 @@ Consulta  de saldo de los servicios
 |idTypeService  |identificador del tipo| 
 |               |de servicio           |
 +---------------+----------------------+
+
+
+
+Listado  de los servicios
+--------------------------
+
+
+..  tip::
+    Solicitud encargada de listar los servicios básicos disponibles.
+
+
+
+``GET /cps/v2/list/basic_services?canGetBalance=false``
+
+
+
+
+..  note::
+       El listado será un arreglo de objetos indicando su identificador del tipo de servicio **idTypeService**
+
+       Tiene un parámetro que se le puede añadir al queryParam llamado **canGetBalance**, este parámetro si se envia **true**.
+       
+       Listará solo los servicios que se le pueden consultar saldo. (*No todos los servicios son aplicables para consultar saldo*).
+       
+       Sino se envia se tomará el valor por defecto que es ``"false"``
+
+
+
++----------------------------------+
+|            Query Params          | 
++===============+==================+
+|               |                  |
+|canGetBalance  |    false         | 
++---------------+------------------+
+
+
