@@ -14,9 +14,7 @@ Contenido
 ``Solicitud encargada de procesar las recargas de saldo por tipo de servicio básico.``
 
 
-.. code-block:: console
-
- POST  cps/v2/operation/use/pay
+:red: POST  cps/v2/operation/use/pay
 
 
 
