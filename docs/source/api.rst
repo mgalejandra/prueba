@@ -111,7 +111,7 @@ Consulta  de saldo de los servicios
 
 
 +--------------------------------------+
-|               Query Params           | 
+|            Query Params              | 
 +===============+======================+
 |               | 02123457654          |
 |numberService  |                      | 
