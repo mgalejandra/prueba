@@ -110,15 +110,15 @@ Consulta  de saldo de los servicios
 
 
 
-+------------------------+----------------------+
-|               Query Params                    | 
-+========================+======================+
-|                        | 02123457654          |
-|    numberService       |                      | 
-|                        | número del tipo de   |
-|                        |  servicio            | 
-+-------------------------+---------------------+
-|                        | 63                   |
-|     idTypeService      |identificador del tipo| 
-|                        |de servicio           |
-+------------------------+----------------------+
++--------------------------------------+
+|               Query Params           | 
++===============+======================+
+|               | 02123457654          |
+|numberService  |                      | 
+|               | número del tipo de   |
+|               | servicio             | 
++---------------+----------------------+
+|               | 63                   |
+|idTypeService  |identificador del tipo| 
+|               |de servicio           |
++---------------+----------------------+
