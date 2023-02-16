@@ -6,17 +6,20 @@ Uso
 Instalación
 ------------
 
-To use Lumache, first install it using pip:
+Para el uso de core debe instalar previamente : 
 
 .. code-block:: console
+ 
+Node y NPM Versión LTS 
 
-   (.venv) $ pip install lumache
-
-Creating recipes
+Empezando
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+cd existing_repo
+git remote add origin ``http://gitlab.xxxxxx.int/xxxxx/c-xxxxx.git ``
+git branch -M Developer
+git push -uf origin Developer
+
 
 .. autofunction:: lumache.get_random_ingredients
 
