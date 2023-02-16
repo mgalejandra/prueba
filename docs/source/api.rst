@@ -16,7 +16,7 @@ Contenido
 
 .. code-block:: console
 
-POST  cps/v2/operation/use/pay
+ POST  cps/v2/operation/use/pay
 
 
 
@@ -25,9 +25,9 @@ POST  cps/v2/operation/use/pay
 
  Los tipos de servicios básicos permitidos son:
 
-+========================+=================+ 
-|  Servicios             |  Id del servicio |
-+======================== =================+
+========================  =================  
+  Servicios                Id del servicio 
+========================  =================
 | DIGITEL_PREPAGO:       |       59        | 
 +------------------------+-----------------+
 | DIGITEL_FIJO:          |        63       |
