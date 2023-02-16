@@ -12,7 +12,7 @@ Recarga de saldo
 ----------------
 
 ..  tip::
-Solicitud encargada de procesar las recargas de saldo por tipo de servicio básico.
+     Solicitud encargada de procesar las recargas de saldo por tipo de servicio básico.
 
 
 
