@@ -76,7 +76,8 @@ El cliente debe obtener el PATH de la petición, el nonce, y el body o query, co
 ``api-signature: e12c97270b50302dd33d8ed0c4c27c48302de66bd06721e96dc45fbe82ae014f1c07152c990156df145943ae8b6c5438``
 
 
-.. code-block:: console
+.. code-block:: shell
+  
 
  Ejemplo de generacion de firma en javascript
 
@@ -110,19 +111,14 @@ El cliente debe obtener el PATH de la petición, el nonce, y el body o query, co
    })
    .catch(function (error) {
      console.log(error);
-});
+   });
 
 
 
 
-..  confval:: title
 
-    :Required: true
-    :type: string or LLL reference
-    :Scope: Display
-    :Path: $GLOBALS > TCA > [table] > columns > [field]
 
-    The name of the field as shown in the form.
+
 .. autoexception:: lumache.InvalidKindError
 
 
