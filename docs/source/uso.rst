@@ -76,7 +76,53 @@ El cliente debe obtener el PATH de la petición, el nonce, y el body o query, co
 ``api-signature: e12c97270b50302dd33d8ed0c4c27c48302de66bd06721e96dc45fbe82ae014f1c07152c990156df145943ae8b6c5438``
 
 
+.. code-block:: console
 
+ Ejemplo de generacion de firma en javascript
+
+   const Axios = require('axios')
+   const Crypto = require('crypto')
+ 
+   const NONCE = Date.now().toString()
+   const PATH = '/v2/list/basic_services'
+   const QUERY = {canGetBalance: false}
+    
+   const REQUEST_DATA = PATH + NONCE + JSON.stringify(QUERY)
+   const PUBLIC_KEY = 'asd'
+   const PRIVATE_KEY = 'asd'
+    
+   const SIGNATURE_GENERATED = Crypto.createHmac('sha384', PRIVATE_KEY).update(REQUEST_DATA).digest('hex');
+    
+    
+   const config = {
+     method: 'get',
+     url: 'localhost:4004/v2/list/basic_services?canGetBalance=false',
+     headers: {
+     'api-key': PUBLIC_KEY,
+     'api-nonce': NONCE,
+     'api-signature': SIGNATURE_GENERATED
+     }
+   };
+    
+   Axios(config)
+   .then(function (response) {
+     console.log(JSON.stringify(response.data));
+   })
+   .catch(function (error) {
+     console.log(error);
+});
+
+
+
+
+..  confval:: title
+
+    :Required: true
+    :type: string or LLL reference
+    :Scope: Display
+    :Path: $GLOBALS > TCA > [table] > columns > [field]
+
+    The name of the field as shown in the form.
 .. autoexception:: lumache.InvalidKindError
 
 
