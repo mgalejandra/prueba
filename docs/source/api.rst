@@ -70,12 +70,13 @@ Contenido
  +------------------------+-----------------+         
 
 
-Se debe agregar el código correspondiente al servicio basico que se desea recargar en el parámetro idTypeService de la petición.
+Se debe agregar el código correspondiente al servicio basico que se desea recargar en el parámetro **idTypeService** de la petición.
 
 
 .. code-block:: console
+   
   {
   "numberService": "04243675525",
   "idTypeService": 57,
   "amount": 10
-}
+   }
