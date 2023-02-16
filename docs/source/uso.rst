@@ -17,18 +17,10 @@ Para el uso de core debe instalar previamente :
 
 Empezando
 ----------------
->>> import lumache cd existing_repo
->>> lumache.get_random_ingredients() git remote add origin ``"http://gitlab.xxxxxx.int/xxxxx/c-xxxxx.git"``
-['shells', 'gorgonzola', 'parsley']
-
-
-
-
-
-cd existing_repo
-git remote add origin ``"http://gitlab.xxxxxx.int/xxxxx/c-xxxxx.git"``
-git branch -M Developer
-git push -uf origin Developer
+>>> cd existing_repo
+>>> git remote add origin `http://gitlab.xxxxxx.int/xxxxx/c-xxxxx.git`
+>>> git branch -M Developer
+>>> git push -uf origin Developer
 
 
 .. autofunction:: lumache.get_random_ingredients
